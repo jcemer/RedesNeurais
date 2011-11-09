@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="src\Ambiente.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="7187" topLine="93" />
+	</File>
+	<File name="src\Ambiente.h" open="0" top="0" tabpos="3">
+		<Cursor position="1159" topLine="1" />
+	</File>
+	<File name="src\environm\basetp.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1846" topLine="9" />
+	</File>
+	<File name="src\environm\environm.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="117" topLine="0" />
+	</File>
+	<File name="src\environm\environm.h" open="1" top="1" tabpos="2">
+		<Cursor position="320" topLine="0" />
+	</File>
+	<File name="src\environm\geom.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="767" topLine="16" />
+	</File>
+	<File name="src\environm\sock.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="4751" topLine="129" />
+	</File>
+	<File name="src\environm\sock.hpp" open="0" top="0" tabpos="6">
+		<Cursor position="10318" topLine="198" />
+	</File>
+	<File name="src\main.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="365" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

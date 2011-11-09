@@ -1,0 +1,5 @@
+connected to 127.0.0.1
+waiting frame on viewer
+[client thread begin]
+[client thread end]
+Exiting, total frames recorded: 0

@@ -1,0 +1,768 @@
+# depslib dependency file v1.0
+1315186434 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\test\test1.cpp
+
+1317091069 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\main.cpp
+	<iostream>
+	<vector>
+	"Regra.h"
+	"OutputRegra.h"
+	"Ambiente.h"
+	"../test/tests.h"
+
+1315188995 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\funcaopertinencia.cpp
+	"FuncaoPertinencia.h"
+
+1317077344 c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\funcaopertinencia.h
+	<sstream>
+
+1317077324 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\funcaotriangulo.cpp
+	"FuncaoTriangulo.h"
+	<cmath>
+	<iostream>
+
+1315190053 c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\funcaotriangulo.h
+	"FuncaoPertinencia.h"
+
+1317089001 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\predicate.cpp
+	"Predicate.h"
+	<iostream>
+
+1315619255 c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\predicate.h
+	<string>
+	"Ambiente.h"
+	"FuncaoPertinencia.h"
+
+1317127002 c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\ambiente.h
+	"environm/environm.h"
+
+1317127340 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\regra.cpp
+	"Regra.h"
+	"Ambiente.h"
+	<iostream>
+
+1316961456 c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\regra.h
+	<vector>
+	<string>
+	"Ambiente.h"
+	"Predicate.h"
+	"FuncaoTriangulo.h"
+	"FuncaoTrapezio.h"
+	"OutputRegra.h"
+
+1317126981 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\ambiente.cpp
+	"Ambiente.h"
+	<stdlib.h>
+	<iostream>
+
+1316953809 c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\test\tests.h
+	"../test/test_framework.h"
+
+1315615651 c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\test\test_framework.h
+
+1315617631 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\test\testfuncaotriangulo.cpp
+	"../src/FuncaoTriangulo.h"
+	"../test/tests.h"
+	"../test/test_framework.h"
+
+1315612348 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\test\test_framework.c
+	<stdio.h>
+	<string.h>
+	"test_framework.h"
+
+1315616014 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\test\test_framework.cpp
+	<stdio.h>
+	<string.h>
+	"test_framework.h"
+
+1316954337 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\test\testmain.cpp
+	"../test/tests.h"
+
+1317088795 c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\environm\environm.h
+	"sock.hpp"
+	"geom.hpp"
+
+1253590792 c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\environm\sock.hpp
+	<stdexcept>
+	"basetp.hpp"
+
+1104764120 c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\environm\basetp.hpp
+
+1111970720 c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\environm\geom.hpp
+	<math.h>
+
+1253590852 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\environm\sock.cpp
+	"sock.hpp"
+	<winsock2.h>
+	<mem.h>
+	<memory.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<unistd.h>
+
+1317089423 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\environm\environm.cpp
+	"environm.h"
+	"soccerdef.hpp"
+	<stdlib.h>
+
+1100214350 c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\environm\soccerdef.hpp
+
+1316962151 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\test\test_ambiente.cpp
+	"../src/Ambiente.h"
+	"../test/tests.h"
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
+1317093446 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\outputregra.cpp
+	"OutputRegra.h"
+	<math.h>
+	<iostream>
+
+1317081293 c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\outputregra.h
+	"FuncaoPertinencia.h"
+	<vector>
+
+1316962014 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\test\testoutputregra.cpp
+	"../test/tests.h"
+	"../src/OutputRegra.h"
+	"../src/Predicate.h"
+	"../src/FuncaoTriangulo.h"
+	<iostream>
+	<vector>
+
+1317077572 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\funcaotrapezio.cpp
+	"FuncaoTrapezio.h"
+	<cmath>
+	<iostream>
+
+1317077017 c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\src\funcaotrapezio.h
+	"FuncaoPertinencia.h"
+
+1316953978 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\fuzzyrobot\test\testfuncaotrapezio.cpp
+	"../src/FuncaoTrapezio.h"
+	"../test/tests.h"
+	"../test/test_framework.h"
+
+1317085281 source:d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\ambiente.cpp
+	"Ambiente.h"
+	<stdlib.h>
+	<iostream>
+
+1316955294 d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\ambiente.h
+	"environm/environm.h"
+
+1115771746 d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\environm\environm.h
+	"sock.hpp"
+	"geom.hpp"
+
+1253590792 d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\environm\sock.hpp
+	<stdexcept>
+	"basetp.hpp"
+
+1104767720 d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\environm\basetp.hpp
+
+1111970720 d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\environm\geom.hpp
+	<math.h>
+
+1317077572 source:d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\funcaotrapezio.cpp
+	"FuncaoTrapezio.h"
+	<cmath>
+	<iostream>
+
+1317077017 d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\funcaotrapezio.h
+	"FuncaoPertinencia.h"
+
+1317077344 d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\funcaopertinencia.h
+	<sstream>
+
+1317077324 source:d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\funcaotriangulo.cpp
+	"FuncaoTriangulo.h"
+	<cmath>
+	<iostream>
+
+1315420282 d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\funcaotriangulo.h
+	"FuncaoPertinencia.h"
+
+1317081409 source:d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\outputregra.cpp
+	"OutputRegra.h"
+	<math.h>
+	<iostream>
+
+1317081293 d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\outputregra.h
+	"FuncaoPertinencia.h"
+	<vector>
+
+1317077447 source:d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\predicate.cpp
+	"Predicate.h"
+	<iostream>
+
+1315619255 d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\predicate.h
+	<string>
+	"Ambiente.h"
+	"FuncaoPertinencia.h"
+
+1315620213 source:d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\environm\environm.cpp
+	"environm.h"
+	"soccerdef.hpp"
+	<stdlib.h>
+
+1100217950 d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\environm\soccerdef.hpp
+
+1253590852 source:d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\environm\sock.cpp
+	"sock.hpp"
+	<winsock2.h>
+	<mem.h>
+	<memory.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<unistd.h>
+
+1317081457 source:d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\main.cpp
+	<iostream>
+	<vector>
+	"Regra.h"
+	"OutputRegra.h"
+	"Ambiente.h"
+	"../test/tests.h"
+
+1316961456 d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\regra.h
+	<vector>
+	<string>
+	"Ambiente.h"
+	"Predicate.h"
+	"FuncaoTriangulo.h"
+	"FuncaoTrapezio.h"
+	"OutputRegra.h"
+
+1316953809 d:\dropbox\rn+fuzzy\tf\fuzzyrobot\test\tests.h
+	"../test/test_framework.h"
+
+1315615651 d:\dropbox\rn+fuzzy\tf\fuzzyrobot\test\test_framework.h
+
+1316953978 source:d:\dropbox\rn+fuzzy\tf\fuzzyrobot\test\testfuncaotrapezio.cpp
+	"../src/FuncaoTrapezio.h"
+	"../test/tests.h"
+	"../test/test_framework.h"
+
+1315617631 source:d:\dropbox\rn+fuzzy\tf\fuzzyrobot\test\testfuncaotriangulo.cpp
+	"../src/FuncaoTriangulo.h"
+	"../test/tests.h"
+	"../test/test_framework.h"
+
+1316954337 source:d:\dropbox\rn+fuzzy\tf\fuzzyrobot\test\testmain.cpp
+	"../test/tests.h"
+
+1316962014 source:d:\dropbox\rn+fuzzy\tf\fuzzyrobot\test\testoutputregra.cpp
+	"../test/tests.h"
+	"../src/OutputRegra.h"
+	"../src/Predicate.h"
+	"../src/FuncaoTriangulo.h"
+	<iostream>
+	<vector>
+
+1315616014 source:d:\dropbox\rn+fuzzy\tf\fuzzyrobot\test\test_framework.cpp
+	<stdio.h>
+	<string.h>
+	"test_framework.h"
+
+1317085010 source:d:\dropbox\rn+fuzzy\tf\fuzzyrobot\src\regra.cpp
+	"Regra.h"
+	"Ambiente.h"
+	<iostream>
+
+1316962151 source:d:\dropbox\rn+fuzzy\tf\fuzzyrobot\test\test_ambiente.cpp
+	"../src/Ambiente.h"
+	"../test/tests.h"
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
+1317253600 source:d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\ambiente.cpp
+	"Ambiente.h"
+	<stdlib.h>
+	<iostream>
+
+1317251649 d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\ambiente.h
+	"environm/environm.h"
+
+1317251649 d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\environm\environm.h
+	"sock.hpp"
+	"geom.hpp"
+
+1317251649 d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\environm\sock.hpp
+	<stdexcept>
+	"basetp.hpp"
+
+1317251649 d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\environm\basetp.hpp
+
+1317251649 d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\environm\geom.hpp
+	<math.h>
+
+1317251649 source:d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\funcaotrapezio.cpp
+	"FuncaoTrapezio.h"
+	<cmath>
+	<iostream>
+
+1317251649 d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\funcaotrapezio.h
+	"FuncaoPertinencia.h"
+
+1317251649 d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\funcaopertinencia.h
+	<sstream>
+
+1317251649 source:d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\funcaotriangulo.cpp
+	"FuncaoTriangulo.h"
+	<cmath>
+	<iostream>
+
+1317251649 d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\funcaotriangulo.h
+	"FuncaoPertinencia.h"
+
+1317253621 source:d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\outputregra.cpp
+	"OutputRegra.h"
+	<math.h>
+	<iostream>
+
+1317251649 d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\outputregra.h
+	"FuncaoPertinencia.h"
+	<vector>
+
+1317172641 source:d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\predicate.cpp
+	"Predicate.h"
+	<iostream>
+
+1317172561 d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\predicate.h
+	<string>
+	"Ambiente.h"
+	"FuncaoPertinencia.h"
+
+1317253114 source:d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\regra.cpp
+	"Regra.h"
+	"Ambiente.h"
+	<iostream>
+
+1317253047 d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\regra.h
+	<vector>
+	<string>
+	"Ambiente.h"
+	"Predicate.h"
+	"FuncaoTriangulo.h"
+	"FuncaoTrapezio.h"
+	"OutputRegra.h"
+
+1317251649 source:d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\environm\environm.cpp
+	"environm.h"
+	"soccerdef.hpp"
+	<stdlib.h>
+
+1317251649 d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\environm\soccerdef.hpp
+
+1317251649 source:d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\environm\sock.cpp
+	"sock.hpp"
+	<winsock2.h>
+	<mem.h>
+	<memory.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<unistd.h>
+
+1317251645 source:d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\test\testfuncaotrapezio.cpp
+	"../src/FuncaoTrapezio.h"
+	"../test/tests.h"
+	"../test/test_framework.h"
+
+1317251645 d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\test\tests.h
+	"../test/test_framework.h"
+
+1317251645 d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\test\test_framework.h
+
+1317251645 source:d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\test\testfuncaotriangulo.cpp
+	"../src/FuncaoTriangulo.h"
+	"../test/tests.h"
+	"../test/test_framework.h"
+
+1317251645 source:d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\test\testmain.cpp
+	"../test/tests.h"
+
+1317251645 source:d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\test\testoutputregra.cpp
+	"../test/tests.h"
+	"../src/OutputRegra.h"
+	"../src/Predicate.h"
+	"../src/FuncaoTriangulo.h"
+	<iostream>
+	<vector>
+
+1317251645 source:d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\test\test_ambiente.cpp
+	"../src/Ambiente.h"
+	"../test/tests.h"
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
+1317251645 source:d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\test\test_framework.cpp
+	<stdio.h>
+	<string.h>
+	"test_framework.h"
+
+1317253561 source:d:\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<stdlib.h>
+	"Regra.h"
+	"OutputRegra.h"
+	"Ambiente.h"
+	"../test/tests.h"
+
+1318194802 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\ambiente.cpp
+	"Ambiente.h"
+	<stdlib.h>
+	<iostream>
+
+1317251649 c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\ambiente.h
+	"environm/environm.h"
+
+1317251649 c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\environm\environm.h
+	"sock.hpp"
+	"geom.hpp"
+
+1317251649 c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\environm\sock.hpp
+	<stdexcept>
+	"basetp.hpp"
+
+1317251649 c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\environm\basetp.hpp
+
+1317251649 c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\environm\geom.hpp
+	<math.h>
+
+1317251649 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\funcaotrapezio.cpp
+	"FuncaoTrapezio.h"
+	<cmath>
+	<iostream>
+
+1317251649 c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\funcaotrapezio.h
+	"FuncaoPertinencia.h"
+
+1317251649 c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\funcaopertinencia.h
+	<sstream>
+
+1317251649 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\funcaotriangulo.cpp
+	"FuncaoTriangulo.h"
+	<cmath>
+	<iostream>
+
+1317251649 c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\funcaotriangulo.h
+	"FuncaoPertinencia.h"
+
+1317253621 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\outputregra.cpp
+	"OutputRegra.h"
+	<math.h>
+	<iostream>
+
+1317251649 c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\outputregra.h
+	"FuncaoPertinencia.h"
+	<vector>
+
+1317172641 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\predicate.cpp
+	"Predicate.h"
+	<iostream>
+
+1317172561 c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\predicate.h
+	<string>
+	"Ambiente.h"
+	"FuncaoPertinencia.h"
+
+1318194895 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\regra.cpp
+	"Regra.h"
+	"Ambiente.h"
+	<iostream>
+
+1317253047 c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\regra.h
+	<vector>
+	<string>
+	"Ambiente.h"
+	"Predicate.h"
+	"FuncaoTriangulo.h"
+	"FuncaoTrapezio.h"
+	"OutputRegra.h"
+
+1317251649 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\environm\sock.cpp
+	"sock.hpp"
+	<winsock2.h>
+	<mem.h>
+	<memory.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<unistd.h>
+
+1318195293 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<stdlib.h>
+	"Regra.h"
+	"OutputRegra.h"
+	"Ambiente.h"
+	"../test/tests.h"
+
+1317251645 c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\test\tests.h
+	"../test/test_framework.h"
+
+1317251645 c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\test\test_framework.h
+
+1317251645 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\test\testfuncaotrapezio.cpp
+	"../src/FuncaoTrapezio.h"
+	"../test/tests.h"
+	"../test/test_framework.h"
+
+1317251645 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\test\testfuncaotriangulo.cpp
+	"../src/FuncaoTriangulo.h"
+	"../test/tests.h"
+	"../test/test_framework.h"
+
+1317251645 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\test\testmain.cpp
+	"../test/tests.h"
+
+1317251645 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\test\testoutputregra.cpp
+	"../test/tests.h"
+	"../src/OutputRegra.h"
+	"../src/Predicate.h"
+	"../src/FuncaoTriangulo.h"
+	<iostream>
+	<vector>
+
+1317251645 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\test\test_ambiente.cpp
+	"../src/Ambiente.h"
+	"../test/tests.h"
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
+1317251645 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\test\test_framework.cpp
+	<stdio.h>
+	<string.h>
+	"test_framework.h"
+
+1317299441 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\environm\environm.cpp
+	"environm.h"
+	"soccerdef.hpp"
+	<stdlib.h>
+
+1317251649 c:\users\gabriel\dropbox\rn+fuzzy\tf\releasefuzzyrobot\src\environm\soccerdef.hpp
+
+1317093023 source:d:\dropbox\rn+fuzzy\tf\neural\replayb3log\src\environm\environm.cpp
+	"environm.h"
+	"soccerdef.hpp"
+	<stdlib.h>
+
+1317092395 d:\dropbox\rn+fuzzy\tf\neural\replayb3log\src\environm\environm.h
+	"sock.hpp"
+	"geom.hpp"
+
+1253594392 d:\dropbox\rn+fuzzy\tf\neural\replayb3log\src\environm\sock.hpp
+	<stdexcept>
+	"basetp.hpp"
+
+1104767720 d:\dropbox\rn+fuzzy\tf\neural\replayb3log\src\environm\basetp.hpp
+
+1111974320 d:\dropbox\rn+fuzzy\tf\neural\replayb3log\src\environm\geom.hpp
+	<math.h>
+
+1100217950 d:\dropbox\rn+fuzzy\tf\neural\replayb3log\src\environm\soccerdef.hpp
+
+1253594452 source:d:\dropbox\rn+fuzzy\tf\neural\replayb3log\src\environm\sock.cpp
+	"sock.hpp"
+	<winsock2.h>
+	<mem.h>
+	<memory.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<unistd.h>
+
+1320253307 source:d:\dropbox\rn+fuzzy\tf\neural\replayb3log\src\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<stdlib.h>
+	"Ambiente.h"
+
+1320251183 d:\dropbox\rn+fuzzy\tf\neural\replayb3log\src\ambiente.h
+	"environm/environm.h"
+	<fstream>
+
+1320253140 source:d:\dropbox\rn+fuzzy\tf\neural\replayb3log\src\ambiente.cpp
+	"Ambiente.h"
+	<stdlib.h>
+	<iostream>
+
+1317093023 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3log\src\environm\environm.cpp
+	"environm.h"
+	"soccerdef.hpp"
+	<stdlib.h>
+
+1320625428 c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3log\src\environm\environm.h
+	"sock.hpp"
+	"geom.hpp"
+
+1317255249 c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3log\src\environm\sock.hpp
+	<stdexcept>
+	"basetp.hpp"
+
+1317255249 c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3log\src\environm\basetp.hpp
+
+1317255249 c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3log\src\environm\geom.hpp
+	<math.h>
+
+1317255249 c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3log\src\environm\soccerdef.hpp
+
+1317255249 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3log\src\environm\sock.cpp
+	"sock.hpp"
+	<winsock2.h>
+	<mem.h>
+	<memory.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<unistd.h>
+
+1320625079 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3log\src\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<stdlib.h>
+	"Ambiente.h"
+
+1320627219 c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3log\src\ambiente.h
+	"environm/environm.h"
+	<fstream>
+
+1320627203 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3log\src\ambiente.cpp
+	"Ambiente.h"
+	<stdlib.h>
+	<math.h>
+	<iostream>
+
+1317255249 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3proxy\src\environm\sock.cpp
+	"sock.hpp"
+	<winsock2.h>
+	<mem.h>
+	<memory.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<unistd.h>
+
+1317255249 c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3proxy\src\environm\sock.hpp
+	<stdexcept>
+	"basetp.hpp"
+
+1317255249 c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3proxy\src\environm\basetp.hpp
+
+1320798965 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3proxy\src\environm\environm.cpp
+	"environm.h"
+	"soccerdef.hpp"
+	<stdlib.h>
+	<iostream>
+
+1320796707 c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3proxy\src\environm\environm.h
+	"sock.hpp"
+	"geom.hpp"
+
+1317255249 c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3proxy\src\environm\geom.hpp
+	<math.h>
+
+1317255249 c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3proxy\src\environm\soccerdef.hpp
+
+1320800175 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3proxy\src\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<stdlib.h>
+	"Ambiente.h"
+
+1320799252 c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3proxy\src\ambiente.h
+	"environm/environm.h"
+	<fstream>
+
+1320800446 source:c:\users\gabriel\dropbox\rn+fuzzy\tf\neural\replayb3proxy\src\ambiente.cpp
+	"Ambiente.h"
+	<stdlib.h>
+	<math.h>
+	<iostream>
+
+1320798966 source:c:\users\jean\downloads\replayb3proxy\src\environm\environm.cpp
+	"environm.h"
+	"soccerdef.hpp"
+	<stdlib.h>
+	<iostream>
+
+1320796708 c:\users\jean\downloads\replayb3proxy\src\environm\environm.h
+	"sock.hpp"
+	"geom.hpp"
+
+1317255250 c:\users\jean\downloads\replayb3proxy\src\environm\sock.hpp
+	<stdexcept>
+	"basetp.hpp"
+
+1317255250 c:\users\jean\downloads\replayb3proxy\src\environm\basetp.hpp
+
+1317255250 c:\users\jean\downloads\replayb3proxy\src\environm\geom.hpp
+	<math.h>
+
+1317255250 c:\users\jean\downloads\replayb3proxy\src\environm\soccerdef.hpp
+
+1317255250 source:c:\users\jean\downloads\replayb3proxy\src\environm\sock.cpp
+	"sock.hpp"
+	<winsock2.h>
+	<mem.h>
+	<memory.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<unistd.h>
+
+1320800176 source:c:\users\jean\downloads\replayb3proxy\src\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<stdlib.h>
+	"Ambiente.h"
+
+1320799254 c:\users\jean\downloads\replayb3proxy\src\ambiente.h
+	"environm/environm.h"
+	<fstream>
+
+1320800448 source:c:\users\jean\downloads\replayb3proxy\src\ambiente.cpp
+	"Ambiente.h"
+	<stdlib.h>
+	<math.h>
+	<iostream>
+

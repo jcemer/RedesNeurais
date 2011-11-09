@@ -1,0 +1,30 @@
+# Project: tlfn
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = tlfn.o $(RES)
+LINKOBJ  = tlfn.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib" -L"C:/Arquivos de programas/OpenCV/lib" -L"C:/Arquivos de programas/pthreads_w32/lib"  
+INCS =  -I"C:/Dev-Cpp/include" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include"  -I"C:/Arquivos de programas/OpenCV/cv/include"  -I"C:/Arquivos de programas/OpenCV/cvaux/include"  -I"C:/Arquivos de programas/OpenCV/cxcore/include"  -I"C:/Arquivos de programas/OpenCV/ml/include"  -I"C:/Arquivos de programas/OpenCV/otherlibs/cvcam/include"  -I"C:/Arquivos de programas/OpenCV/otherlibs/highgui"  -I"C:/Arquivos de programas/pthreads_w32/include" 
+BIN  = tlfn.exe
+CXXFLAGS = $(CXXINCS)   -fexpensive-optimizations -O3
+CFLAGS = $(INCS)   -fexpensive-optimizations -O3
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before tlfn.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "tlfn.exe" $(LIBS)
+
+tlfn.o: tlfn.c
+	$(CPP) -c tlfn.c -o tlfn.o $(CXXFLAGS)
